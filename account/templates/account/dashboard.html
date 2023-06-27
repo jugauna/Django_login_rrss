@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+    <h1>Dashboard</h1>
+    <p>Bienvenido al tablero. Usted puede <a href="{% url 'edit' %}"> editar su perfil</a>
+    o <a href="{% url 'password_change' %}">cambiar su contraseña</a></p>
+    <h2>Ingrese a la Aplicación<h2>
+        <a href="http://mail.google.com" target="_blank">website para trabajar</a>
+        
+
+{% endblock %}
